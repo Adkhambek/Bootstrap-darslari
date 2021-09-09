@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+      <div class="container">
+          <h1>Accordions</h1>
+          <div class="accordion accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1>Alerts</h1>
+          <div class="alert alert-primary" role="alert">
+            <p style="margin: 0;">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="alert alert-success" role="alert">
+            <p style="margin: 0;">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            <p style="margin: 0;">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="alert alert-primary" role="alert">
+            <p style="margin: 0;">Lorem ipsum dolor sit amet. <a class="alert-link" href="#">This is link</a> </p>
+          </div>
+          <div class="alert alert-success" role="alert">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p style="margin: 0;">Lorem ipsum dolor sit amet. <a class="alert-link" href="#">This is link</a> </p>
+            <hr>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+          <div class="alert alert-success" role="alert">
+            <p style="margin: 0;">
+              <span class="fas fa-check"></span>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="alert alert-primary" role="alert">
+            <p style="margin: 0;">
+              <span class="fas fa-info"></span>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <p style="margin: 0;">Lorem ipsum dolor sit amet.</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          </div>
+      </div>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+   
+</html>

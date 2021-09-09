@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Badge</h1>
+    <h2>Lorem ipsum dolor sit amet. <span class="badge bg-secondary">new</span></h2>
+    <button type="button" class="btn btn-primary">
+      notification
+      <span class="badge bg-danger">3</span>
+    </button>
+    <button type="button" class="btn btn-primary position-relative">
+      Inbox
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        99+
+        <span class="visually-hidden">unread messages</span>
+      </span>
+    </button>
+    <span class="badge bg-primary">Primary</span>
+    <span class="badge bg-secondary">Secondary</span>
+    <span class="badge bg-success">Success</span>
+    <span class="badge bg-danger">Danger</span>
+    <span class="badge bg-warning text-dark">Warning</span>
+    <span class="badge bg-info text-dark">Info</span>
+    <span class="badge bg-light text-dark">Light</span>
+    <span class="badge bg-dark">Dark</span>
+  </div>
+  <h1>BreadCrumb</h1>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+  </nav>
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ol>
+  </nav>
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Library</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
